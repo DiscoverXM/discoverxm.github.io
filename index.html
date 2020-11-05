@@ -7,7 +7,6 @@
 	<link rel="icon" type="image/png" href="img/favicon.png"/>
 	<title>Discover XM - Explore the personal side of CCXPs</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9a0773bd-d9ec-4444-9fa7-a249cfa26097" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 <body>
@@ -37,8 +36,9 @@
 							<span>Subscribe to get to know more</span>
 						</div>
 						<form class="form form-top" action="https://submit-form.com/HCW_VVg63v7pMVT8GVqIO" target="_self">
+							<input type="checkbox" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
 							<input class="input_email input" type="text" name="email" required>
-							<button class="button_submit g-recaptcha" data-sitekey="6LdUR98ZAAAAAL_h3M-KW5YSAcOyCw4tVt4qW0If" data-callback='onSubmit' type="submit">Sign Up!</button>
+							<button class="button_submit" type="submit">Sign Up!</button>
 						</form>
 					</div>
 				</div>
@@ -47,6 +47,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div id="Description">
 			<div id="Experience_management_is_inher">
 				<span>Experience management is inherently about transformation and change</span>
@@ -117,8 +118,9 @@
 				<span>Subscribe to get to know more</span>
 			</div>
 			<form class="form form-bottom" action="https://submit-form.com/HCW_VVg63v7pMVT8GVqIO" target="_self">
+				<input type="checkbox" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
 				<input class="input_email input" type="text" name="email" required>
-				<button class="button_submit g-recaptcha" data-sitekey="6LdUR98ZAAAAAL_h3M-KW5YSAcOyCw4tVt4qW0If" data-callback='onSubmit' type="submit">Sign Up!</button>
+				<button class="button_submit" type="submit">Sign Up!</button>
 			</form>
 		</div>
 	</div>
@@ -143,10 +145,5 @@
 	</div>
 </body>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59508691-4"></script>
-<script>
-window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-59508691-4');
-  function onSubmit(token) {
-    document.getelementsbyclassname("form").submit();
-  }
-</script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-59508691-4');</script>
 </html> 
